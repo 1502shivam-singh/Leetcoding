@@ -12,65 +12,58 @@
  */
 class Solution {
 public:
-    int null_count=0;
     std::vector<int> store;
-    int pos_LL=0;
+    ListNode* start;
+    std::vector<ListNode*> ptrs;
     
-    ListNode* mergeKLists(vector<ListNode*>& lists) {
+    
+    ListNode* mergeKLists(vector<ListNode*>& lists) ;
+    ListNode* make_LL(std::vector<int>& vec);
+
+};
+
+ListNode* Solution::make_LL(std::vector<int>& vec){  
+        int size=vec.size();
+        ListNode* end=new ListNode(vec[size-1]);
+        ptrs.push_back(end);
+        int ptr_in=0;
+        for(int i=size-2;i>=0;i--){
+            end=new ListNode(vec[i],ptrs[ptr_in]);
+            ptrs.push_back(end);
+            ptr_in++;
+        }
+       // delete end;
+        return ptrs[ptrs.size()-1];
+}
+
+ListNode* Solution::mergeKLists(vector<ListNode*>& lists) {
 
      //priority_queue<min> heap;
+        if(!lists.empty()){
         std::priority_queue<int, std::vector<int>, std::greater<int> > heap;
      //while(..){
-        while(1){    //condition to update
-            for(int i=0;i<lists.size();i++){
-                if(unfunction(lists[i],pos_LL)!=0){
-                heap.push(unfunction(lists[i],pos_LL));}
-                else{null_count++;}
-            }
-            if(null_count==lists.size()){break;}
-            else{
-            while(!heap.empty()){
-                store.push_back(heap.top());
-                heap.pop();
-            }
-            pos_LL++;
+    for(int i=0;i<lists.size();i++){
+        start=lists[i];
+        if(start!=nullptr){
+        while(start!=nullptr){
+            heap.push(start->val);
+            start=start->next;
             }
         }
+    }
+    while(!heap.empty()){
+        store.push_back(heap.top());
+        heap.pop();
+    }
+        if(!store.empty()){
         ListNode*start = make_LL(store);
-        return start;
-     //loop .. k times{
-      //  store.push(unfunction(listNode[i]->val,pos_LL));
-       // }
+        return start;}
+            else{return nullptr;}
      //while(heap.isempty){
      //hvector.push(heap.head);
      //heap.pop();
         //}
      //}
-     
+     }
+        else{return nullptr;}
     }
-    
-    ListNode* make_LL(std::vector<int>& vec){
-        std::vector<ListNode*> ptrs;
-        int size=vec.size();
-        ListNode end=ListNode(vec[size-1]);
-        ptrs.push_back(&end);
-        int ptr_in=0;
-        for(int i=size-2;i>=0;i--){
-            end=ListNode(vec[i],ptrs[ptr_in]);
-            ptrs.push_back(&end);
-            ptr_in++;
-        }
-        return ptrs[ptrs.size()-1];
-    }
-    
-    int unfunction(ListNode* node,int pos){
-        int value;
-        for(int i=0;i<=pos;i++){
-            if(node!=nullptr){k
-            value=node->val;
-            node=node->next;}
-            else {value=0;break;}
-        }
-        return value;
-    }
-};
