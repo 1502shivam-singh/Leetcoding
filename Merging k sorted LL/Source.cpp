@@ -12,25 +12,32 @@
  */
 class Solution {
 public:
+    int null_count=0;
+    std::vector<int> store;
+    int pos_LL=0;
+    
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        std::vector<int> store;
-        int pos_LL=0;
+
      //priority_queue<min> heap;
         std::priority_queue<int, std::vector<int>, std::greater<int> > heap;
      //while(..){
-        while(){    //condition to update
-            for(int i=0;i<lists.size(),i++){
-                if(unfunction(lists[i],pos_LL)!=NULL){
+        while(1){    //condition to update
+            for(int i=0;i<lists.size();i++){
+                if(unfunction(lists[i],pos_LL)!=0){
                 heap.push(unfunction(lists[i],pos_LL));}
+                else{null_count++;}
             }
+            if(null_count==lists.size()){break;}
+            else{
             while(!heap.empty()){
-                store.push_back(heap.head);
+                store.push_back(heap.top());
                 heap.pop();
             }
             pos_LL++;
+            }
         }
         ListNode*start = make_LL(store);
-        return start
+        return start;
      //loop .. k times{
       //  store.push(unfunction(listNode[i]->val,pos_LL));
        // }
@@ -42,7 +49,7 @@ public:
      
     }
     
-    ListNode* make_LL(std::vector<int>& vec);{
+    ListNode* make_LL(std::vector<int>& vec){
         std::vector<ListNode*> ptrs;
         int size=vec.size();
         ListNode end=ListNode(vec[size-1]);
@@ -59,10 +66,10 @@ public:
     int unfunction(ListNode* node,int pos){
         int value;
         for(int i=0;i<=pos;i++){
-            if(node!=nullptr){
+            if(node!=nullptr){k
             value=node->val;
             node=node->next;}
-            else value=NULL;
+            else {value=0;break;}
         }
         return value;
     }
