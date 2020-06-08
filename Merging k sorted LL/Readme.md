@@ -5,3 +5,7 @@ Merge k sorted linked lists and return it as one sorted list.<br> Analyze and de
 
 Difficulty-
 Hard ☠
+
+Language used- 
+C++17
+
