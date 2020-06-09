@@ -1,4 +1,4 @@
-//All headers are supposed to be included as on the LeetCode platform 
+//All headers are supposed to be included as on the LeetCode platform still added
 
 /**
  * Definition for singly-linked list.
@@ -10,6 +10,10 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+#include<vector>
+#include<algorithm>
+#include<queue>
+
 class Solution {
 public:
     std::vector<int> store;
