@@ -8,7 +8,7 @@ public:
 	{
 		int val;
 		node* next=nullptr;
-		node(int val) :val(val) {
+		explicit node(int val):val(val) {
 			next=nullptr;
 		};
 	};
