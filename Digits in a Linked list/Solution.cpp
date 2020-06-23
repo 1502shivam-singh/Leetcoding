@@ -9,7 +9,7 @@ public:
 		int val;
 		node* next=nullptr;
 		explicit node(int val):val(val) {
-			next=nullptr;
+			explicit next=nullptr;
 		};
 	};
 	std::vector<node*> ptr_list;
