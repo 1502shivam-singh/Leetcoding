@@ -11,3 +11,6 @@ Explanation: 342 + 465 = 807.
 Difficulty - Medium 💀💀
 
 Language used - C++17
+
+Time-complexity of solution - O(n) average and worst-case.<br>
+Space-complexity of solution - O(n).
