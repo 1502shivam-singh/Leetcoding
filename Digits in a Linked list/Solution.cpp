@@ -8,7 +8,9 @@ public:
 	{
 		int val;
 		node* next=nullptr;
-		node(int val) :val(val) {};
+		node(int val) :val(val) {
+			next=nullptr;
+		};
 	};
 	std::vector<node*> ptr_list;
 	node* make_LL(std::vector<int> vec);
