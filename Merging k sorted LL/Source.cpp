@@ -22,11 +22,11 @@ public:
     
     
     ListNode* mergeKLists(vector<ListNode*>& lists) ;
-    ListNode* make_LL(std::vector<int>& vec);
+    ListNode* make_LL(const std::vector<int>& vec);
 
 };
 
-ListNode* Solution::make_LL(std::vector<int>& vec){  
+ListNode* Solution::make_LL(const std::vector<int>& vec){  
         int size=vec.size();
         ListNode* end=new ListNode(vec[size-1]);
         ptrs.push_back(end);
