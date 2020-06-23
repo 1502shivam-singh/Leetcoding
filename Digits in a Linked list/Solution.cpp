@@ -17,9 +17,7 @@ public:
 class solution : public Linked_list  {
 private:
 	
-	std::vector<int> num1;
-	std::vector<int> num2;
-	std::vector<int> num3;
+	std::vector<int> num1,num2,num3;
 	int store = 0;
 	int final_num = 0;
 public:
