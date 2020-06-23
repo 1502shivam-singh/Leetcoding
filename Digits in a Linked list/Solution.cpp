@@ -22,7 +22,7 @@ private:
 	int final_num = 0;
 public:
 
-	solution(std::vector<int> num1, std::vector<int> num2) :num1(num1), num2(num2) {};
+	solution(const std::vector<int>& num1, const std::vector<int>& num2) :num1(num1), num2(num2) {};
 	node* start_n1 = make_LL(num1);
 	node* start_n2 = make_LL(num2);
 	node* new_number_list();
