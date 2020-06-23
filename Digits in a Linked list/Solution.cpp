@@ -42,9 +42,9 @@ Linked_list::node* Linked_list::make_LL(std::vector<int> vec)
 	return ptr_list[0];
 }
 
-solution::node* solution::new_number_list()
+solution::node* solution::new_number_list()	//Solution of the problem
 {
-	while (start_n1 != nullptr || start_n2) {
+	while (start_n1 != nullptr || start_n2 != nullptr) {
 		if (start_n1 == nullptr) { final_num = start_n2->val + store; }
 		else if (start_n2 == nullptr) { final_num = start_n1->val + store; }
 		else { final_num = start_n1->val + start_n2->val + store; }
