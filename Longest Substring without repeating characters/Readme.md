@@ -13,5 +13,9 @@ Consider below code-
 <br>
 -> 10 (Output)
 
-Language used : C++17
+Language used : C++17 
+
+Time Complexity : O(n)
+
+Space Complexity : O(n)
 
