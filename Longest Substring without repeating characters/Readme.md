@@ -5,9 +5,13 @@ Given a string, find the length of the longest substring without repeating chara
 For example:
 Consider below code- 
 
-class Solution:
-  def lengthOfLongestSubstring(self, s):
-    # Fill this in.
+  class Solution:<br>
+    def lengthOfLongestSubstring(self, s):<br>
+      # Fill this in.<br>
 
-print Solution().lengthOfLongestSubstring('abrkaabcdefghijjxxx')
+  print Solution().lengthOfLongestSubstring('abrkaabcdefghijjxxx')<br>
+<br>
 -> 10
+
+Language used : C++17
+
