@@ -11,7 +11,7 @@ Consider below code-
 
   print Solution().lengthOfLongestSubstring('abrkaabcdefghijjxxx')<br>
 <br>
--> 10
+-> 10 (Output)
 
 Language used : C++17
 
