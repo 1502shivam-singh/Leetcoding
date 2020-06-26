@@ -17,5 +17,5 @@ Language used : C++17
 
 Time Complexity : O(n)
 
-Space Complexity : O(n)
+Space Complexity : O(m) - where m is size of hash table used
 
