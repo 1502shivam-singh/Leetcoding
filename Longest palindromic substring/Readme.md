@@ -11,5 +11,12 @@ Note: "aba" is also a valid answer.<br>
 Example 2:
 
 Input: "cbbd"<br>
-Output: "bb"<br>
+Output: "bb"
 
+Language used - C++17
+
+Difficulty - Medium 💀💀
+
+Time Complexity - O(n^2)<br>
+Space Complexity - O(1)
+ 
