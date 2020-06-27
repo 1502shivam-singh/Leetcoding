@@ -13,6 +13,8 @@ Consider below code-
 <br>
 -> 10 (Output)
 
+Difficulty - 💀💀 (Medium)
+
 Language used : C++17 
 
 Time Complexity : O(n)
