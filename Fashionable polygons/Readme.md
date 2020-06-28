@@ -1,13 +1,9 @@
-#Fashionable polygons
+# Fashionable polygons
 
-<center>time limit per test
-2 seconds
-memory limit per test
-256 megabytes
-input
-standard input
-output
-standard output</center>
+<p align="center">time limit per test : 2 seconds<br>
+memory limit per test : 256 megabytes<br>
+input : standard input<br>
+output : standard output</p>
 
 Lee is going to fashionably decorate his house for a party, using some regular convex polygons...
 
@@ -35,15 +31,15 @@ Example
 
 Input
 
-4
-3
-4
-12
-1000000000
+4<br>
+3<br>
+4<br>
+12<br>
+1000000000<br>
 
 Output
 
-NO
-YES
-YES
+NO<br>
+YES<br>
+YES<br>
 YES
