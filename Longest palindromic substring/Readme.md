@@ -13,9 +13,9 @@ Example 2:
 Input: "cbbd"<br>
 Output: "bb"
 
-Language used - C++17
-
 Difficulty - Medium 💀💀
+
+Language used - C++17
 
 Time Complexity - O(n^2)<br>
 Space Complexity - O(1)
