@@ -43,3 +43,7 @@ NO<br>
 YES<br>
 YES<br>
 YES
+
+Language used - C++17
+
+Difficulty - Easy 💀
