@@ -1,9 +1,9 @@
 # Fashionable polygons
 
-<p align="center">time limit per test : 2 seconds<br>
+<strong><p align="center">time limit per test : 2 seconds<br>
 memory limit per test : 256 megabytes<br>
 input : standard input<br>
-output : standard output</p>
+output : standard output</p></strong>
 
 Lee is going to fashionably decorate his house for a party, using some regular convex polygons...
 
