@@ -14,6 +14,6 @@ Given an array nums with n integers, your task is to check if it could become no
 <strong>Output:</strong> false<br>
 <strong>Explanation:</strong> You can't get a non-decreasing array by modify at most one element.<br>
 
-Language used - C++17
+<strong>Language used</strong> - C++17
 
-Difficulty - Easy 
+<strong>Difficulty</strong> - Easy 💀 
