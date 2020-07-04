@@ -17,3 +17,7 @@ Given an array nums with n integers, your task is to check if it could become no
 <strong>Language used</strong> - C++17
 
 <strong>Difficulty</strong> - Easy 💀 
+
+<strong>Time Complexity</strong> - O(n) 
+
+<strong>Space Complexity</strong> - O(1) 
