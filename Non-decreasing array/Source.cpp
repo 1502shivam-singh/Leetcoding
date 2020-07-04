@@ -3,10 +3,10 @@ class Solution {
 private:
     int check=0;
 public:
-    bool checkPossibility(vector<int>& nums);
+    bool checkPossibility(vector<int>& nums);       //Solution function definition below 
 };
 
-bool Solution::checkPossibility(vector<int>& nums) {
+bool Solution::checkPossibility(vector<int>& nums) {    //Function definition
         for(int i=0;i<nums.size()-1;i++){
             if(!(nums[i]<=nums[i+1])){
                 if(i>0){
