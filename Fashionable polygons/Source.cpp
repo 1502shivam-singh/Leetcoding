@@ -12,7 +12,7 @@
     		arr.push_back(val);	//Data input
     	}
     	for (int i = 0; i<num; i++) {
-    		if (std::modf((arr[i]-4)/4, &ref) == 0.0) { std::cout << "YES\n"; }	//Solution
+    		if (std::modf((arr[i]-4)/4, &ref) == 0.0) { std::cout << "YES\n"; }	//Solution uses finding fractional part of (arr[i]-4)/4 and checking whether it is zero or not
     		else { std::cout << "NO\n"; }
     	}
     }
