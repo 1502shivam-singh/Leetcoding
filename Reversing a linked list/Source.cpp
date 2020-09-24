@@ -10,9 +10,8 @@
  */
 class Solution {
 public:
-    
-    //Faster solution in linear time and constant space
-    
+//Faster solution in linear time and constant space
+//Iterative approach    
 ListNode* reverseList(ListNode* head) {   //Solution function
     if(head != nullptr){ 
         ListNode* h1 = nullptr;
@@ -29,6 +28,23 @@ ListNode* reverseList(ListNode* head) {   //Solution function
      }
     else{return nullptr;}
 }
+
+//Recursive approach
+node* reverseListR(node* head) {	//O(n) approach with O(n) space used by function stack
+	if (head != NULL) {
+		if (head->next == NULL) {
+			return head;		/*The head for the reversed list, that is stored in rhead pointer on 
+								every function call stack pop and return as is.*/
+		}
+		node* rhead = reverseListR(head->next);
+			head->next->next = head;	//Reversing pointers
+			head->next = NULL;
+		return rhead;	
+	}
+	else {
+		return NULL;
+	}
+}    
     
    /* Slower brute force approach
    
