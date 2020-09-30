@@ -9,6 +9,10 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+
+//Recusive solution
+
 class Solution {
 public:
     std::vector<int> vec;
