@@ -42,7 +42,7 @@ vector<int> inorderTraversal(TreeNode* root) {
 	return vec;
 }
 
-ostream& operator<<(ostream& stream, vector<int> vec) {
+ostream& operator<<(ostream& stream, vector<int> vec) {		//Overloaded << operator to print a vector straight away
 	stream << "[ ";
 	for (auto it : vec) {
 		stream << it<<" ";
