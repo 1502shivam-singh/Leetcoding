@@ -38,10 +38,15 @@ Output: 3
 Constraints:
 
 1 <= N <= 1000
+
 0 <= trust.length <= 10^4
+
 trust[i].length == 2
+
 trust[i] are all different
+
 trust[i][0] != trust[i][1]
+
 1 <= trust[i][0], trust[i][1] <= N
 
 Difficulty - Easy 💀
