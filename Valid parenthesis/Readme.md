@@ -9,28 +9,28 @@ An input string is valid if:
 
 Example 1:
 
-Input: s = "()"<br>
-Output: true
+    Input: s = "()"<br>
+    Output: true
 
 Example 2:
 
-Input: s = "()[]{}"<br>
-Output: true
+    Input: s = "()[]{}"<br>
+    Output: true
 
 Example 3:
 
-Input: s = "(]"<br>
-Output: false
+    Input: s = "(]"<br>
+    Output: false
 
 Example 4:
 
-Input: s = "([)]"<br>
-Output: false
+    Input: s = "([)]"<br>
+    Output: false
 
 Example 5:
 
-Input: s = "{[]}"<br>
-Output: true
+    Input: s = "{[]}"<br>
+    Output: true
 
  
 
@@ -39,3 +39,10 @@ Constraints:
     1 <= s.length <= 104<br>
     s consists of parentheses only '()[]{}'.
 
+    Difficulty- Easy 💀
+
+    Language used- C++17
+
+    Time complexity - O(n)  
+
+    Space complexity - O(m)    m <= n
