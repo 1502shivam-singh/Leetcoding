@@ -2,7 +2,7 @@
 
 In a town, there are N people labelled from 1 to N.  There is a rumor that one of these people is secretly the town judge.
 
-If the town judge exists, then:
+If the town judge exists, then:<br>
 
 The town judge trusts nobody.<br>
 Everybody (except for the town judge) trusts the town judge.<br>
@@ -57,4 +57,5 @@ language used - C++17
 
 Time-complexity of solution - O(n) average and worst-case.<br>
 Space-complexity of solution - O(n) for the hashtable.
+
 
