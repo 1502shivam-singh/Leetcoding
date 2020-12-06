@@ -1,3 +1,3 @@
 # Leetcoding
 
-<h3>Repository of all the problems I have solved in Leetcode.</h3>
+<h3>Repository of some of the problems I have solved on Leetcode.</h3>
