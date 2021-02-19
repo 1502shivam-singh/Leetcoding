@@ -22,7 +22,7 @@ The given node will always be the first node with val = 1. You must return the c
 
  
 
-Example 1:
+<h3>Example 1:</h3>
 
 
 Input: adjList = [[2,4],[1,3],[2,4],[1,3]]
@@ -39,7 +39,7 @@ Explanation: There are 4 nodes in the graph.
 
 4th node (val = 4)'s neighbors are 1st node (val = 1) and 3rd node (val = 3).
 
-Example 2:
+<h3>Example 2:</h3>
 
 Input: adjList = [[]]
 
@@ -47,7 +47,7 @@ Output: [[]]
 
 Explanation: Note that the input contains one empty list. The graph consists of only one node with val = 1 and it does not have any neighbors.
 
-Example 3:
+<h3>Example 3:</h3>
 
 Input: adjList = []
 
@@ -55,14 +55,14 @@ Output: []
 
 Explanation: This an empty graph, it does not have any nodes.
 
-Example 4:
+<h3>Example 4:</h3>
 
 Input: adjList = [[2],[1]]
 
 Output: [[2],[1]]
  
 
-Constraints:
+<h3>Constraints:</h3>
 
 1 <= Node.val <= 100
 
@@ -74,8 +74,8 @@ There is no repeated edges and no self-loops in the graph.
 
 The Graph is connected and all nodes can be visited starting from the given node.
 
-Difficulty - Medium 💀💀
+<strong>Difficulty</strong> - Medium 💀💀
 
-Related topics - graph theory
+<strong>Related topics</strong> - graph theory
 
-language used - C++17
+<strong>language used</strong> - C++17
